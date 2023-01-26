@@ -1,0 +1,20 @@
+version: '3.8'
+services:
+  sveltekit:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    container_name: sveltekit-dev
+    volumes:
+      - .:/app
+    restart: always
+    command: npm run dev
+    ports:
+      - 3069:3069
+    env_file:
+      - .env
+networks:
+  default:
+    name: cv-svelte_default
+    external: true
