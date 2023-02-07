@@ -5,6 +5,8 @@
     <h3 class="font-semibold text-2xl text-center text-gray-800 mb-4 w-2/3">Software Engineer</h3>
     <p class="font-normal text-xl text-center text-gray-800 w=2/3">
         Visit <a class="text-blue-500 hover:text-blue-700" href="https://www.linkedin.com/in/jackpelliott/">
-        my LinkedIn profile</a> to learn more about me.
+        my LinkedIn profile</a> to learn more about me, or <a class="text-blue-500 hover:text-blue-700"
+                                                              href="https://www.github.com/earlofurl">my Github</a>
+        to see my work.
     </p>
 </div>
